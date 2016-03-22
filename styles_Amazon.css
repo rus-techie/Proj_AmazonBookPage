@@ -1,0 +1,85 @@
+
+            body, container, nav, a, ul, li, p{
+                margin: 0px;
+                padding: 0px;
+                font-family: arial,helvetica,sans-serif; 
+                font-size: 12px;; color: black; 
+                list-style-type: none;
+                text-decoration: none;
+                }
+            body, #container{ width: 1250px; box-sizing: border-box;}
+            
+            h1, h2, h3, h4{padding: 0px 10px; margin: px; }
+            
+            h2{color: #999; font-size: 17px;}
+            
+            h3{color: black; font-size: 12.35px;}
+            
+            a{ padding: 0px 5px 0px 5px; }
+            
+            #mainHeader{ width: 100%; height: 60px; background-color: black; padding: 0px 10px;}
+            
+            #logo{ width: 100px; height: 60px; color: white;}
+            
+            #hNav{ width:100%; height:40px; background-color: #FAFAFA; border-bottom: 1px solid #DDD; padding: 0px 10px;}
+            
+            #vNav{ float: left; width: 17%; border-right:1px solid #DDD;  margin: 0px; padding: 0px 10px; box-sizing: border-box;}
+            
+            .hList li{ display: inline; padding: 0px 4px; line-height: 40px;}
+            
+            .vList li{ list-style-type: none; padding: 0px 10px; line-height: 20px;}
+
+            .vList li a{padding: 1px;}
+            
+            .chkBox{margin: 0px;}
+            
+            #rightSection{ float: left; box-sizing: border-box; width: 83%; margin: 0px; padding: 10px;}
+           
+           .promoClass{ color: #666666;}
+           
+            a:hover{ color: #E47911;}
+           
+            .hList a:hover{ border-bottom: 2px solid #E47911; padding-bottom: 10px;}
+           
+            li{ padding: 2px;}
+            
+            hr{ border: 1px solid #DDD;}
+            
+            span.totNum{ opacity: 0.5;}
+            
+            #sortBar{
+                box-sizing: border-box;
+                line-height: 40px;
+                padding: 0px 10px 0px 10px;
+                height: 40px;
+                width: 100%;
+                background: -webkit-linear-gradient(#FFFFFF, #FAFAFA); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(#FFFFFF, #FAFAFA); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(#FFFFFF, #FAFAFA); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(#FFFFFF, #FAFAFA); /* Standard syntax (must be last) */
+                border-top: 1px solid #DDD;
+                border-bottom: 1px solid #DDD;
+            }
+            #sortBar ul{float: right;}
+           
+            #listView{ width: 15px; height: 15px; vertical-align: middle;}
+            
+            #imgView{  width: 20px; height: 20px; vertical-align: middle;}
+             
+            aside{ border: 1px solid #DDD; width: 100%; height: 100px; padding: 10px 0px 10px 10px; margin: 10px 0px; box-sizing: border-box;}
+            
+            #productDate, #author, #extra{ color: #555; font-size: 12px; font-weight: normal;}
+            
+            .textbookLinks{ color: #004B91;}
+            
+            article{border-top: 1px solid #DDD;}
+            
+            .product{ height: 200px; width: 100%; padding: 0px; margin: 0px;}
+           
+           .productImageDiv{ width: 20%; height: 100%; float: left; box-sizing: border-box; position: relative;}
+        
+           .productImage{ position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; margin: auto;}
+           
+           .productDesc{ width: 80%; display: inline-block; box-sizing: border-box;}
+           
+           .productName{ font-size: 17px; font-family: Arial,sans-serif;}

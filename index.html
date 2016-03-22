@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amazon.com: Featured in Books</title>
+        <link rel= "stylesheet" type= "text/css" href="styles_Amazon.css" />
+    </head>
+    <body>
+        <div id="container">
+            <header id="mainHeader">
+                <img id= "logo" src="img/amazonlogo.jpg" alt="amazon logo"/>
+            </header>
+            <nav id= "hNav" class= "hList">
+                <ul><li><a href="#"> Books </a></li><li><a href="#"> Advanced Search </a></li><li><a href="#"> New Releases </a></li><li><a href="#"> Best Sellers </a></li><li><a href="#"> The New Yorks Times&reg; Best Sellers </a></li><li><a href="#"> Children's Books </a></li><li><a href="#"> Text Books </a></li><li><a href="#"> Textbook Rentals </a></li><li><a href="#"> Sell Us Your Books </a></li><li><a href="#"> Best Books of the Month </a></li><li><a href="#"> Deals in Books </a></li></ul>
+            </nav>
+            
+            <nav id= "vNav" class= "vList">
+                <h2>Show results for</h2>
+                <h3>New Releases</h3>
+                <ul><li><a href="#">Last 30 days <span class= "totNum">(n)</span></a></li><li><a href="#">Last 90 days <span class= "totNum">(n)</span></a></li><li><a href="#">Coming Soon<span class= "totNum">(n)</span></a></li></ul>
+                <hr />
+                
+                <h2>Books</h2>
+                <h3>Featured in Books</h3>
+                <ul><li><a href="#">Arts &amp; Photography <span class= "totNum">(n)</span></a></li><li><a href="#">Children's Books <span class= "totNum">(n)</span></a></li><li><a href="#">Education <span class= "totNum">(n)</span></a></li><li><a href="#">Computers &amp; Technology <span class= "totNum">(n)</span></a></li><li><a href="#">Health &amp; Fitness <span class= "totNum">(n)</span></a></li><li><a href="#">Travel <span class= "totNum">(n)</span></a></li><li><a href="#">Romance <span class= "totNum">(n)</span></a></li><li><a href="#">History <span class= "totNum">(n)</span></a></li><li><a href="#">Law <span class= "totNum">(n)</span></a></li></ul>
+                <hr />
+                
+                <h2>Refine By</h2>
+                <h3>Format</h3>
+                <ul><li><a href="#">Paper Back <span class= "totNum">(n)</span></a></li><li><a href="#"> Hardcover <span class= "totNum">(n)</span></a></li><li><a href="#">Kindle <span class= "totNum">(n)</span></a></li></ul>
+                <br />
+           
+                <h3>Book Series</h3>
+                <form>
+                <ul><li><input type="checkbox" class= "chkBox" name="bookSeries" value="mil"><a href="#"> Millennium series <span class= "totNum">(n)</span></a></li><li><input type="checkbox" class= "chkBox" name= "bookSeries" value= "lilBlue"><a href="#"> Little Blue Truck <span class= "totNum">(n)</span></a></li><li><input type="checkbox" class= "chkBox" name="bookSeries" value="classic"><a href="#"> Classic Seuss <span class= "totNum">(n)</span></a></li><li><a href="#"><span class= "totNum" style= "padding: 2px;">+ &nbsp; See More</span></a></li></ul>
+                </form>
+                <br />
+            
+                <h3>Language</h3>
+                <ul><li><input type="checkbox" class= "chkBox" name="language" value="eng"><a href="#"> English <span class= "totNum">(n)</span></a></li><li><input type="checkbox" class= "chkBox" name="language" value="spa"><a href="#"> Spanish <span class= "totNum">(n)</span></a></li></ul>
+                <hr />
+            </nav>
+            
+            <!-- Right section -->
+            <section id= "rightSection">
+                <div id= "sortBar">
+                    <p style= "float: left;"> 1-12 of <span class= "totNum">(total number of books)</span> results for <b>Books</b>:  <span id= "bookType">Featured in Books</span> </p>
+                    <ul class= "hList" >
+                        <li>Sort by</li>
+                        <li>
+                            <select>
+                                <option value="featured">Featured</option>
+                                <option value= "lowToHigh">Price: Low to High</option>
+                                <option value= "highToLow">Price: High To Low</option>
+                                <option value= "avgReview">Avg. Customer Review</option>
+                                <option value= "pubDate">Publication Date</option>
+                                <option value= "mostReview">Most Reviews</option>
+                            </select>
+                        </li>
+                        <li><img id= "listView" src= "img/listView.png" alt="List View" title= "List View" /></li>
+                        <li><img id= "imgView" src= "img/imageView.png" alt="Image View"  title= "Image View" /></li>
+                    </ul> 
+                </div>
+                
+                <aside>
+                    <img src="img/asideImg.jpg" alt="Textbooks image" style= "float: left; width: 80px; height: 80px;" />
+                    <p style= "float: left; vertical-align: middle; margin: 20px;">
+                         <a href="#" class= "promoClass" style= "font-size: 19px;">Textbooks &minus; Save Up to 90% When You Buy on Amazon</a> <br />
+                         <a href="#" class= "textbookLinks">Textbooks Store </a>| <a href="#" class= "textbookLinks"> Textbook Rental Store </a>| <a href="#" class= "textbookLinks"> Your Rental Cart </a>| <a href="#" class= "textbookLinks"> eTextbooks Store </a>| <a href="#" class= "textbookLinks"> Search by ISBN </a>
+                    </p>
+                </aside>
+                <p style="margin: 10px 0px;">Related Searched: <span style= "color: #0066C0;"><a href= "">books on sale. </a></span></p>
+               
+               <!-- Main, Products section with articles containing each product. -->
+                <section id= "productSection"> 
+                    
+                    <article class= "product">
+                        <div class= "productImageDiv">
+                            <img class= "productImage" src= "img/image4.jpg" alt= "Product Image" />
+                        </div>
+                        <div class= "productDesc">
+                            <h3 class= "productName">Harry Potter and the Sorcerer's Stone: The Illustrated Edition (Harry Potter, Book 1) <span id= "productDate"> Oct 6, 2015 </span><br /> <span id= "extra">by </span> <span id= "author">J.K. Rowling and Jim Kay </span></h3>
+                        </div>
+                    </article>   
+                    
+                    <article class= "product">
+                        <div class= "productImageDiv">
+                            <img class= "productImage" src= "img/image1.jpg" alt= "Product Image" />
+                        </div>
+                        <div class= "productDesc">
+                            <h3 class= "productName">The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing <span id= "productDate"> Oct 14, 2014 </span><br /> <span id= "extra">by </span> <span id= "author">Marie Kondo</span></h3>
+                        </div>
+                    </article>   
+                    
+                    <article class= "product">
+                        <div class= "productImageDiv">
+                            <img class= "productImage" src= "img/image2.jpg" alt= "Product Image" />
+                        </div>
+                        <div class= "productDesc">
+                            <h3 class= "productName">The Martian <span id= "productDate"> Oct 28, 2014 </span><br /> <span id= "extra">by </span> <span id= "author">Andy Weir</span></h3>
+                        </div>
+                    </article>
+                       
+                       <article class= "product">
+                        <div class= "productImageDiv">
+                            <img class= "productImage" src= "img/image3.jpg" alt= "Product Image" />
+                        </div>
+                        <div class= "productDesc">
+                            <h3 class= "productName">All the Light We Cannot See <span id= "productDate"> May 6, 2014 </span><br /><span id= "extra">by </span><span id= "author">Anthony Doerr</span></h3>
+                        </div>
+                    </article>       
+                </section>
+           </section> <!--Right section of the page-->
+        </div>
+    </body>
+</html>
